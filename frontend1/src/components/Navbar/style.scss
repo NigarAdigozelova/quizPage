@@ -1,0 +1,35 @@
+.navbar {
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 40px;
+    width:100%;
+    
+
+    .left-nav {
+        display: flex;
+        gap: 70px;
+
+        .logo {}
+
+        .links {
+            display: flex;
+            gap: 10px;
+
+            a {
+                text-decoration: none;
+            }
+
+        }
+    }
+
+    .btn-nav button{
+        background-color: #e74208;
+        color:white;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 5px;
+    }
+}
