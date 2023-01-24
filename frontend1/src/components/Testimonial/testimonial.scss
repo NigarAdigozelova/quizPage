@@ -1,0 +1,29 @@
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    .card-wrapper span {
+        color: red;
+    }
+}
+
+
+.test {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .testi {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        gap: 30px;
+
+        
+
+       
+    }
+}

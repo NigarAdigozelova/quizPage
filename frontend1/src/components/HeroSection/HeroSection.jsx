@@ -27,11 +27,11 @@ const HeroSection = () => {
         <SwiperSlide style={{position: "relative"}} >
 
 
-          <img style={{ width: "100%", height: 800 }} src="https://preview.colorlib.com/theme/hexa/images/slider-1.jpg" alt="" />
+          <img style={{ width: "100%", height: 800 ,filter:" brightness(70%)"}} src="https://preview.colorlib.com/theme/hexa/images/slider-1.jpg" alt="" />
           <div className="div" >
             <h1 >Creative Design</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-            <ul>
+            <ul className="hero-btn">
               <li><button>Get Started</button></li>
               <li><button>Download</button></li>
             </ul>
@@ -39,11 +39,11 @@ const HeroSection = () => {
           
         </SwiperSlide>
         <SwiperSlide style={{position: "relative"}}>
-          <img style={{ width: "100%", height: 800 }} src="https://preview.colorlib.com/theme/hexa/images/slider-2.jpg" alt="" />
+          <img style={{ width: "100%", height: 800,filter:" brightness(70%)" }} src="https://preview.colorlib.com/theme/hexa/images/slider-2.jpg" alt="" />
           <div className="div" >
             <h1 >Creative Design</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-            <ul>
+            <ul className="hero-btn">
               <li><button>Get Started</button></li>
               <li><button>Download</button></li>
             </ul>

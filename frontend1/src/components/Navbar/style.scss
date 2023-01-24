@@ -12,14 +12,20 @@
         display: flex;
         gap: 70px;
 
-        .logo {}
+        .logo {
+            color: white;
+            font-size: 30px;
+        }
 
         .links {
             display: flex;
+            align-items: center;
             gap: 10px;
+           
 
             a {
                 text-decoration: none;
+                color: white;
             }
 
         }

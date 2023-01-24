@@ -3,6 +3,7 @@ import About from "../pages/About"
 import Blog from "../pages/Blog"
 import Contact from "../pages/Contact"
 import Home from "../pages/Home"
+import Login from "../pages/Login"
 import NotFound from "../pages/NotFound"
 import Projects from "../pages/Projects"
 import Services from "../pages/Services"
@@ -35,6 +36,10 @@ const ROUTES=[
             {
                 path:'contact',
                 element:<Contact/>
+            },
+            {
+                path:'login',
+                element:<Login/>
             },
             {
                 path:'*',
